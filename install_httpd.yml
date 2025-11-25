@@ -13,3 +13,11 @@
       service:
         name: httpd
         state: started
+        enabled: yes
+
+    - name: Deploy Webpage
+      copy:
+        src: index.html
+        dest: /var/www/html
+        owner: apache
+        group: apache

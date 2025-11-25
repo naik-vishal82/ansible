@@ -1,0 +1,7 @@
+---
+- name: Run the script
+  hosts: webserver
+  become: yes
+
+  tasks:
+    - name:  

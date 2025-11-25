@@ -1,0 +1,5 @@
+---
+- name: Create empty file
+  hosts: webserver
+  become: yes
+

@@ -1,2 +1,5 @@
+[webserver]
 node1
+
+[db]
 node2
